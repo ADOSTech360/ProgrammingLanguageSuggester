@@ -3,6 +3,38 @@ body {
 	background-color: #8ebd43d5;
 }
 
+.container0 {
+	border: 2px solid rgb(21, 13, 129);
+	padding: 10px;
+	background-color: goldenrod;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+  box-sizing: border-box;
+}
+
+.centered-image {
+	margin:auto;
+	width: 50%;
+	height: 50%;
+	display: block;
+
+}
+
+.container2 {
+	border: 2px solid rgb(21, 13, 129);
+	padding: 10px;
+	background-color: rgba(230, 237, 238, 0.404);
+	display: inline-block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 75%;
+  box-sizing: border-box;
+}
+
 
 #blank-showing {
   display: none;
