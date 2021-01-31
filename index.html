@@ -12,16 +12,85 @@
       <p><strong>Programming Language Suggester</strong> a enean ex dolor, viverra sed mi quis, gravida faucibus est. Nam ut bibendum purus. Suspendisse risus libero, ultricies eu efficitur eget, pulvinar eu lectus. Nam eros ligula, convallis sit amet magna non, dictum posuere tellus. Vestibulum at tortor eu justo consequat scelerisque.</p>
 
       <div id="blank-hidden">
-        <p>LeVivamus efficitur odio arcu, id fringilla orci commodo nec. Cras tempor lectus sit amet commodo posuere. Phasellus purus tortor, condimentum in lacus nec, vestibulum imperdiet ex. Mauris lorem elit, dictum vitae enim vel, rutrum varius libero. Mauris ac placerat odio, quis scelerisque orci. Nunc non consequat ex, et tempus dui. Nulla facilisi. <span class="clickable">Click here</span> to see cras ut ultrices ipsum, ut dapibus quam. Nam ut mi in metus facilisis dapibus. Aliquam a massa suscipit, malesuada augue vel, rhoncus metus. Proin varius, massa sit amet facilisis vehicula, neque neque dictum metus, eu eleifend mi nulla ut lectus!</p>
+        <p> What is your favorite fruit? <span class="clickable">Click here</span> to see cras ut ultrices ipsum, ut dapibus quam. Nam ut mi in metus facilisis dapibus. Aliquam a massa suscipit, malesuada augue vel, rhoncus metus. Proin varius, massa sit amet facilisis vehicula, neque neque dictum metus, eu eleifend mi nulla ut lectus!</p>
       </div>
   
       <div id="blank-showing">
         <p>Maecenas eu ex ut massa blandit venenatis a a mauris. Nulla in massa diam. Duis rutrum varius ipsum. Fusce metus eros, ornare a nisl vitae, volutpat lobortis nis! <span class="clickable">Click here</span> to hide  Nunc et suscipit metus. Aenean ullamcorper vulputate scelerisque. Vestibulum finibus risus quis mollis fringilla.</p>
         <img src="img/blank.jpg">
       </div>
+
+
+<!-- 
+// Question 5 for the user regarding the reasoning for wanting to learn a new coding language. Presented in form of user input. This question will NOT be counted in the branching logic. // -->
+
+    <form id="language">
+      <div class="language-group">
+        <label for="input1">Why do you want to learn another language?:</label>
+        <input id="input1" class="language-control" type="text">
+      </div>
+      <div class="language-group">
+        <label for="input2">What do you hope to build with your new skill?:</label>
+        <input id="input2" class="language-control" type="text">
+      </div>
+
+<!-- 
+// Question number 6 for the user regarding exercise. Presented in form of another drop down. // -->
+  
+<label for="form-exercise">When do you prefere to exercise?</label>
+  <div class="container2">
+    <select class="form-exertcise" id="fitness">
+      <option value="1">Morning</option>
+      <option value="2">Afternoon</option>
+      <option value="3">Evening</option>
+      <option value="4">Late Night</option>
+      <option value="5">NEVER!</option>
+    </select>
+  </div>
+
+<!-- 
+// Bonus Question #7 for the user what he/she would do on day 1 of their presidency. Presented in form of user input. This question will NOT be counted in the branching logic. // -->
+
+      <div class="container">
+        <h3>BONUS Question</h3>
+        <form id="president">
+        <div class="container-group">
+          <h4> If you were the president of the USA what would you do on day 1?</h4>
+      
+            <div class="radio1">
+              <label>
+                <input type="radio" name="fruit" value="1">
+                Make America Great Again!
+              </label>
+            </div>
+            <div class="radio1">
+              <label>
+                <input type="radio" name="fruit" value="2" checked>
+                End all foreign engagements 
+              </label>
+            </div>
+            <div class="radio1">
+              <label>
+                <input type="radio" name="fruit" value="3">
+                Throw a Party for the essential workers announcing that all congress members will be working working on minimum wage for the next 2 years.
+              </label>
+            </div>        
+            <div class="radio1">
+              <label>
+                <input type="radio" name="fruit" value="4">
+                Take a trip on Airforce 1
+              </label>
+            </div>        
+            <button type="submit" class="btn">Complete Survey</button>
+          </form>
+          <div id="output">
+          </div>
+        </div>
+
+
+
     </div>
   </body>
-
 
 
   <!-- Include a minimum of 5 survey questions.
@@ -38,4 +107,12 @@ Offer a minimum of 3 different language suggestions.
 * Java
 * Swift
 
-Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone. -->
+Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone.
+
+Ruby
+C#
+JavaScript
+Go
+Python
+Rust
+Swift-->
