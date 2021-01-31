@@ -20,8 +20,54 @@
         <img src="img/blank.jpg">
       </div>
 
+<!-- 
+// Question 1 for the user regarding fruit. Presented in form of a radio button. This question will be counted in the branching logic. // -->
 
-      
+<div class="container">
+  <h1>Fruit</h1>
+  <form id="fruitmeter">
+  <div class="container-group">
+    <h3>What is your favorite fruit?</h3>
+
+      <div class="radio1">
+        <label>
+          <input type="radio" name="fruit" value="Bananas" checked>
+          Bananas
+        </label>
+      </div>
+      <div class="radio1">
+        <label>
+          <input type="radio" name="fruit" value="Apples">
+          Apples
+        </label>
+      </div>
+      <div class="radio1">
+        <label>
+          <input type="radio" name="fruit" value="Strawberries">
+          Strawberries
+        </label>
+      </div>        
+      <div class="radio1">
+        <label>
+          <input type="radio" name="fruit" value="Grapes">
+          Grapes
+        </label>
+      </div>        
+      <button type="submit" class="btn">Next</button>
+    </form>
+    <div id="output">
+    </div>
+  </div>
+    
+<!-- 
+// Question 2 for the user regarding musical talent. Presented in form of a Boolean radio button. This question will be counted in the branching logic. // -->
+  
+  <div class="container0">
+    <h3>Do you play a musical instrument?</h3>
+    <input id="radio3" type="radio" class="radio-instrument" name="instrument1" data-value="true"/> Yes 
+    <input id="radio4" type="radio" class="radio-instrument" name="instrument2" data-value="false"/> No
+  </div>
+
       
 <!-- 
 // Question 3 for the user regarding their favorite place to vacation. Presented in form of a drop down menu. This question will be counted in the branching logic. // -->
