@@ -1,3 +1,9 @@
+body {
+	background: url(someurl.jpg);
+	background-color: #8ebd43d5;
+}
+
+
 #blank-showing {
   display: none;
 }
@@ -9,4 +15,9 @@
 
 .clickable:hover {
   text-decoration: underline;
+  
+}
+
+#fruit-group {
+  display: none;
 }
