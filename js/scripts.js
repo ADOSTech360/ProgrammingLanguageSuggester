@@ -7,6 +7,15 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
+  $(".clickable").click(function() {
+    $("#fruit-group").toggle();
+    $("#fruit-group").toggle();
+  });
+});
+
+
+
+$(document).ready(function() {
   $("form#calculator").submit(function() {
     event.preventDefault();
     const number1 = parseInt($("#input1").val());
