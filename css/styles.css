@@ -1,4 +1,4 @@
-/* #blank-showing {
+#blank-showing {
   display: none;
 }
 
@@ -9,4 +9,4 @@
 
 .clickable:hover {
   text-decoration: underline;
-} */
+}
